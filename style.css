@@ -1,0 +1,134 @@
+.container{
+
+    display:flex;
+    justify-content:center ;
+
+}
+.container-box{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+    font-family: cursive;
+
+
+}
+.box{
+    border: 2px solid black;
+    font-size: 5vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 10vw;
+    width: 10vw;
+    display: none;
+}
+.box:hover{
+    background-color:#e7efe9 ;
+}
+.gameinfo{
+    padding:0 34px ;
+    font-family: cursive;
+}
+.br-0{
+    border-right: 0;
+
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+*{
+    background-color: #CFFFDC;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 5vw;
+color: #68BA7F;
+}
+.info{
+    color: #253D2C;
+    font-weight: 800;
+    font-size: 3vw;
+}
+button{
+    border-radius: 1rem;
+height:4vw;
+width:7vw;
+margin-top: 50px;
+font-size: 2vw;
+background-color: #2E6F40;
+color: antiquewhite;
+}
+@media(max-width:600px){
+    button{
+        height: 10vw;
+        width:15vw;
+        font-size: 5vw;
+
+    }
+h1{
+        font-size: 9vw;
+    margin-left: -620px;
+    display: block;
+       
+    }
+   .info{
+    color: #253D2C;
+    font-weight: 1000;
+    font-size: 6vw;
+    margin-left: -500px;
+   }
+   .container-box{
+    display: grid;
+    grid-template-rows: repeat(3,25vw);
+    grid-template-columns: repeat(3,25vw);
+    font-family: cursive;
+    padding-left: 300px;
+    padding-right: 0;
+    margin-top: 300px;
+
+
+
+}
+.gameinfo{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+
+    display:flex;
+    margin: 0;
+    padding: 0;
+   
+}
+.box{
+    font-size: 9vw;
+    cursor: pointer;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.Tac{
+    color:#253D2C;
+    display: block;
+}
+}
+

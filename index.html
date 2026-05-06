@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game By Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-box">
+            <div    onclick="handleClick(0)" class="box bt-0 bl-0"  data-index="0"><span class="boxtext"></span></div>
+            <div   onclick="handleClick(1)" class="box bt-0" data-index="1"><span class="boxtext"></span></div>
+            <div   onclick="handleClick(2)" class="box bt-0 br-0" data-index="2"><span class="boxtext"></span></div>
+            <div  onclick="handleClick(3)" class="box bl-0" data-index="3"><span class="boxtext"></span></div>
+            <div  onclick="handleClick(4)" class="box  "  data-index="4"><span class="boxtext"></span></div>
+            <div  onclick="handleClick(5)" class="box br-0" data-index="5"><span class="boxtext"></span></div>
+            <div  onclick="handleClick(6)" class="box  bl-0 bb-0"data-index="6"><span class="boxtext"></span></div>
+            <div  onclick="handleClick(7)" class="box bb-0" data-index="7"><span class="boxtext"></span></div>
+            <div  onclick="handleClick(8)" class="box bb-0 br-0" data-index="8"><span class="boxtext"></span></div>
+        </div>
+
+        <div class="gameinfo">
+            <h1 class="new">Welcome to the Tic <span class="Tac">Tac </span>Toe Game</h1>
+            <div>
+                <span class="info">Turn for X</span>
+                <button id="reset" onclick="resetGame()">Reset</button>
+            </div>
+            <div class="imgbox">
+                <img src="giphy.gif">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
